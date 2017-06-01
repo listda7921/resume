@@ -61,14 +61,26 @@
         <div class="col-sm-8">
 
           <div class="">
-            <h3>Full Stack .Net</h3>
-            <p>Coder Camps, Houston TX</p>
-            <p>2000 hours development experience using .Net technologies</p>
+            <h3>Full Stack .Net <small>May 2016</small></h3>
+            <p>Coder Camps, Houston TX May 2016</p>
+            <div uib-collapse="!isCampCollapsed">
+              <div class="well well-lg">
+                <p>Coder Camps is a 5 week programming bootcamp designed to give students the skills they need to perform competitively as a Full Stack .NET Developer in a real world programming role. The camp structures classes around a 40 hour work week
+                  + homework. As the camp works it's way through all layers of the stack, daily scrum meetings are held and students design and manage their own sprints while completing group projects to present for Demo day.</p>
+              </div>
+            </div>
+            <md-button class="collapseBtn" ng-click="isCampCollapsed = !isCampCollapsed; text === 'more' ? text = 'less': text = 'more'">Show {{text}}</md-button>
+
           </div>
           <div class="">
-            <h3>Bachelor of Science(BS) in Geology</h3>
-            <p>University of Cincinnati, Cincinnati OH</p>
-            <p>Field Camp: Himalayas, India</p>
+            <h3>Bachelor of Science in Geology <small>Dec 2013</small></h3>
+            <p>University of Cincinnati</p>
+            <div uib-collapse="!isGeologyCollapsed">
+              <div class="well well-lg">
+                <p>geology info.</p>
+              </div>
+            </div>
+            <md-button class="collapseBtn" ng-click="isGeologyCollapsed = !isGeologyCollapsed; text2 === 'more' ? text2 = 'less': text2 = 'more'">Show {{text2}}</md-button>
           </div>
         </div>
         <div class="col-sm-2">
@@ -90,29 +102,25 @@
           <div class="col-sm-8">
 
             <div class="">
-              <h3>Software Engineer, Rubix Group LLC.</h3>
-              <span>May 2016 - May 2017</span>
-              <p>Develop web and mobile applications using Full Stack .Net technologies</p>
-              <p>Maintain deadlines and organization using tools such as Trello, Asana, and Bitbucket.</p>
+              <h3>Software Engineer, Rubix Group LLC. <small>May 2016 - May 2017</small></h3>
+              <p>Developed web and mobile applications using Full Stack .NET technologies</p>
+              <p>Maintained deadlines and organization using tools such as Trello, Asana, and Bitbucket.</p>
             </div>
 
             <div class="">
-              <h3>Mud Logging Analyst, Schlumberger</h3>
-              <span>July 2015 - January 2016</span>
+              <h3>Mud Logging Analyst, Schlumberger <small>July 2015 - January 2016</small></h3>
               <p>Monitored oil wells while drilling, recorded client data, analyzed and logged geologic samples.</p>
               <p>Offshore Gulf of Mexico.</p>
             </div>
 
             <div class="">
-              <h3>Landscaper, Lamond Landscaping</h3>
-              <span>July 2014 - July 2015</span>
+              <h3>Landscaper, Lamond Landscaping <small>July 2014 - July 2015</small></h3>
               <p>Lead teams, managed workers, held responsibility for completing tasks by deadline.</p>
             </div>
 
             <div class="">
-              <h3>Grocery Clerk, The Kroger Company</h3>
-              <span>May 2010 - July 2014</span>
-              <p>Maintained and replentished products beyond goals and standards in both individual and team settings.</p>
+              <h3>Grocery Clerk, The Kroger Company <small>May 2010 - July 2014</small></h3>
+              <p>Maintained and replenished products beyond goals and standards in both individual and team settings.</p>
             </div>
           </div>
           <div class="col-sm-2">
@@ -133,7 +141,8 @@
         </div>
         <div class="col-sm-8">
 
-          <h3>680 W Sam Houston Pkwy S, #331 - Houston, TX 77042</h3>
+          <!-- <h3>680 W Sam Houston Pkwy S, #331 - Houston, TX 77042</h3> -->
+          <h3>1626 Sutton Ave, Cincinnati OH 45230</h3>
           <h3>(513) 205-1124 - listda7921@gmail.com</h3>
           <div id="links">
             <h4>Find me on:</h4>

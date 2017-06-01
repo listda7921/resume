@@ -85,3 +85,9 @@ md-nav-bar md-nav-ink-bar {
 #contact {
   margin-bottom: 20vh;
 }
+
+.collapseBtn {
+  margin-left: 0px;
+  padding-left: 0px;
+  color: #d31a31;
+}
