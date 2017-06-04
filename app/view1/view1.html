@@ -113,12 +113,42 @@
               <h3>Software Engineer, Rubix Group LLC. <small>May 2016 - May 2017</small></h3>
               <p>Developed web and mobile applications using Full Stack .NET technologies</p>
               <p>Maintained deadlines and organization using tools such as Trello, Asana, and Bitbucket.</p>
+              <div uib-collapse="!isRbxCollapsed">
+                <div class="well well-lg">
+                  <p>
+                    Developed heavily in Angular and C# to create UI as well as back-end services for both mobile and browser applcations.
+                  </p>
+                  <p>
+                    Created RESTful Web Services to power interactions between client and server.
+                  </p>
+                  <p>
+                    Developed mobile applications with the Ionic framework using both Angular and Angular 2 with Typescript.
+                  </p>
+                </div>
+              </div>
+              <md-button class="collapseBtn" ng-click="isRbxCollapsed = !isRbxCollapsed; text4 === 'more' ? text4 = 'less': text4 = 'more'">Show {{text4}}</md-button>
             </div>
 
             <div class="">
               <h3>Mud Logging Analyst, Schlumberger <small>July 2015 - January 2016</small></h3>
               <p>Monitored oil wells while drilling, recorded client data, analyzed and logged geologic samples.</p>
               <p>Offshore Gulf of Mexico.</p>
+              <div uib-collapse="!isSlbCollapsed">
+              <div class="well well-lg">
+              <blockquote>
+              <p>
+                Mudloggers are a drilling operations first line of safety. By constantly monitoring conditions inside the well, Mudloggers are able to catch any unstable situation that may arise beneath the surface and bring them to the attention of the drilling crew. Mudloggers also work closely with the Company Man and Geologist to examine drilling progress and log samples for clients.
+                </p>
+                </blockquote>
+                <p>
+                  Recieved extensive offshore and workplace safety training, including hands on driver training, helicopter egress training, and water survival training.
+                </p>
+                <p>
+                  Attended Mudlogging course for certification as an offshore Mudlogger. Learned techniques for using well monitoring software, as well as sample identifcation and classification.
+                </p>
+                </div>
+              </div>
+              <md-button class="collapseBtn" ng-click="isSlbCollapsed = !isSlbCollapsed; text3 === 'more' ? text3 = 'less': text3 = 'more'">Show {{text3}}</md-button>
             </div>
 
             <div class="">
