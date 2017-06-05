@@ -3,7 +3,7 @@ html {
 }
 hr{
   border-top: #465646;
-}
+} 
 .footer a{
   color: #ffffff;
 }
@@ -145,9 +145,8 @@ md-nav-bar md-nav-ink-bar {
 .skill{
   transition: all linear 0.5s;
 }
-.md-chips{
-  box-shadow: 0 0px !important; 
-}
-.md-chip{
-  margin: 20px 15px 0px 0px;
+.skillsBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

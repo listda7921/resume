@@ -2,7 +2,8 @@ var app = angular.module('myApp', [
   'ngRoute',
   'ngMaterial',
   'duScroll',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'angularjs-gauge'
 ])
 
 app.config(function($routeProvider, $locationProvider){

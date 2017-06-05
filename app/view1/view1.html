@@ -12,7 +12,7 @@
   </div>
   </div>
   <div id="credit">
-  <a href="http://www.freepik.com">Designed by Onlyyouqj / Freepik</a>
+  <a href="http://www.freepik.com" target="_blank">Designed by Onlyyouqj / Freepik</a>
   </div>
 </div>
 <div class="container">
@@ -21,14 +21,15 @@
 <hr>  
       <h2>SKILLS PROFILE</h2>
       
-  <div class="col-sm-2"></div>
-      <div class="col-sm-8 skillsBox">
       <md-switch md-invert aria-label="Skill Switch" ng-model='skillToggle' ng-change="skillChange(skillToggle)">
     Top skills
   </md-switch>
-        <div class="skill" ng-repeat="skill in filteredSkills">{{skill}}</div>
+      <div class="skillsBox">
+        <div class="skill" ng-repeat="skill in filteredSkills">
+
+<ng-gauge size="150" type="arch" thick="5" min="0" max="100" value="68.2" cap="round" label="{{skill}}"  foreground-color="#ffcc66" background-color="rgba(255,255,255, 0.4)" append="%"></ng-gauge>
+        </div>
       </div>
-      <div class="col-sm-2"></div>
     </div>
 
   </div>

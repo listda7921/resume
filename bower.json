@@ -15,7 +15,8 @@
     "angular-animate": "*",
     "angular-material": "*",
     "angular-scroll": "*",
-    "angular-bootstrap": "*"
+    "angular-bootstrap": "*",
+    "angularjs-gauge": "*"
 
   },
   "resolutions":{
