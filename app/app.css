@@ -1,12 +1,15 @@
 html {
   height: auto;
 }
-hr{
+
+hr {
   border-top: #465646;
-} 
-.footer a{
+}
+
+.footer a {
   color: #ffffff;
 }
+
 .section {
   display: flex;
   flex-direction: column;
@@ -20,47 +23,51 @@ hr{
   background-image: url("img/O7MF5N0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 97vh;
   align-items: baseline;
   color: #ffffff;
 }
-.title{
+
+.title {
   padding: 3em;
 }
-#credit{
-  text-align: end; 
+
+#credit {
+  text-align: end;
 }
-#credit a{
-    color: #667666;
-    font-size: 0.8em;
-    margin-right: 5px;
+
+#credit a {
+  color: #667666;
+  font-size: 0.8em;
+  margin-right: 5px;
 }
+
 #profileNav {
   position: fixed;
 }
 
 .navBtn.active {
-/*  border-bottom: 1px solid #667666;*/
+  /*  border-bottom: 1px solid #667666;*/
   background-color: #ffffff;
-
 }
-.navBtn.active ._md-nav-button-text{
+
+.navBtn.active ._md-nav-button-text {
   color: #222F22;
 }
+
 md-nav-bar {
   position: fixed;
   top: 0px;
   width: 100%;
-  background: #667666;
+  background: #336687;
   z-index: 2;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16); 
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
 }
 
 ._md-nav-button-text {
   /*color: rgb(51, 51, 51);*/
   color: #ffffff;
 }
-
 
 md-nav-bar md-nav-ink-bar {
   background: #FFF;
@@ -118,34 +125,45 @@ md-nav-bar md-nav-ink-bar {
   padding-left: 0px;
   color: #76666F;
 }
-.footer{
-  background:#667666;
+
+.footer {
+  background: #336687;
   min-height: 30vh;
   color: #ffffff;
   margin-top: 10em;
   padding-top: 3em;
   padding-bottom: 3em;
 }
-.footerBox{
+
+#name {
+  font-size: 4em;
+}
+
+.footerBox {
   padding: 40px;
 }
 
-.skill.ng-leave{
+.skill.ng-leave {
   opacity: 1;
 }
-.skill.ng-leave.ng-leave-active{
+
+.skill.ng-leave.ng-leave-active {
   opacity: 0;
 }
-.skill.ng-enter{
+
+.skill.ng-enter {
   opacity: 0;
 }
-.skill.ng-enter.ng-enter-active{
+
+.skill.ng-enter.ng-enter-active {
   opacity: 1;
 }
-.skill{
+
+.skill {
   transition: all linear 0.5s;
 }
-.skillsBox{
+
+.skillsBox {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

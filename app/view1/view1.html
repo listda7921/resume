@@ -6,37 +6,37 @@
 </md-nav-bar>
 <div>
   <div id="header" class="section">
-  <div class="title">
-    <h1>DANIEL ARGUS LIST</h1>
-    <h3>Full Stack .Net Developer</h3>
-  </div>
+    <div class="title">
+      <h1 id="name">DANIEL ARGUS LIST</h1>
+      <h3>Full Stack .Net Developer</h3>
+    </div>
   </div>
   <div id="credit">
-  <a href="http://www.freepik.com" target="_blank">Designed by Onlyyouqj / Freepik</a>
+    <a href="http://www.freepik.com" target="_blank">Image Designed by Onlyyouqj / Freepik</a>
   </div>
 </div>
 <div class="container">
   <div id="skillsProfile" class="section">
     <div class="wrap">
-<hr>  
+      <hr>
       <h2>SKILLS PROFILE</h2>
-      
+
       <md-switch md-invert aria-label="Skill Switch" ng-model='skillToggle' ng-change="skillChange(skillToggle)">
-    Top skills
-  </md-switch>
+        Top skills
+      </md-switch>
       <div class="skillsBox">
         <div class="skill" ng-repeat="skill in filteredSkills">
 
-<ng-gauge size="150" type="arch" thick="5" min="0" max="100" value="68.2" cap="round" label="{{skill}}"  foreground-color="#ffcc66" background-color="rgba(255,255,255, 0.4)" append="%"></ng-gauge>
+          <ng-gauge size="150" type="arch" thick="5" min="0" max="100" value="num" cap="round" label="{{skill}}" foreground-color="#ffcc66" background-color="rgba(255,255,255, 0.4)" append="%"></ng-gauge>
         </div>
       </div>
     </div>
 
   </div>
-  
+
   <div id="education" class="section">
     <div class="wrap">
-<hr>
+      <hr>
       <h2>EDUCATION</h2>
       <div class="row">
         <div class="col-sm-2">
@@ -62,10 +62,10 @@
             <div uib-collapse="!isGeologyCollapsed">
               <div class="well well-lg">
                 <blockquote>
-                <p>Geology, the study of the earth, provides vast knowledge of the workings of our planet. From climate change to evolution, econmics and resources, Geology provides a solid foundation for understanding our planet.</p>
+                  <p>Geology, the study of the earth, provides vast knowledge of the workings of our planet. From climate change to evolution, econmics and resources, Geology provides a solid foundation for understanding our planet.</p>
                 </blockquote>
                 <p>
-                Attended field camp in the Himalayas in 2013. Spent 6 weeks traveling across major geologic features and produced geologic maps of the area. 
+                  Attended field camp in the Himalayas in 2013. Spent 6 weeks traveling across major geologic features and produced geologic maps of the area.
                 </p>
                 <p>
                   Courses include Earth history, Vertebrate & Invertebrate Paleontology, Structural Geology, Mineralogy, Geomorphology, and Stratigraphy.
@@ -84,7 +84,7 @@
 
   <div id="experience" class="section">
     <div class="wrap">
-<hr>
+      <hr>
       <h2>EMPLOYMENT EXPERIENCE</h2>
       <div class="">
         <div class="row">
@@ -118,18 +118,19 @@
               <p>Monitored oil wells while drilling, recorded client data, analyzed and logged geologic samples.</p>
               <p>Offshore Gulf of Mexico.</p>
               <div uib-collapse="!isSlbCollapsed">
-              <div class="well well-lg">
-              <blockquote>
-              <p>
-                Mudloggers are a drilling operations first line of safety. By constantly monitoring conditions inside the well, Mudloggers are able to catch any unstable situation that may arise beneath the surface and bring it to the attention of the drilling crew. Mudloggers also work closely with the Company Man and Geologist to examine drilling progress and log samples for clients.
-                </p>
-                </blockquote>
-                <p>
-                  Recieved extensive offshore and workplace safety training, including hands on driver training, helicopter egress training, and water survival training.
-                </p>
-                <p>
-                  Attended Mudlogging course for certification as an offshore Mudlogger. Learned techniques for using well monitoring software, as well as sample identifcation and classification.
-                </p>
+                <div class="well well-lg">
+                  <blockquote>
+                    <p>
+                      Mudloggers are a drilling operations first line of safety. By constantly monitoring conditions inside the well, Mudloggers are able to catch any unstable situation that may arise beneath the surface and bring it to the attention of the drilling crew.
+                      Mudloggers also work closely with the Company Man and Geologist to examine drilling progress and log samples for clients.
+                    </p>
+                  </blockquote>
+                  <p>
+                    Recieved extensive offshore and workplace safety training, including hands on driver training, helicopter egress training, and water survival training.
+                  </p>
+                  <p>
+                    Attended Mudlogging course for certification as an offshore Mudlogger. Learned techniques for using well monitoring software, as well as sample identifcation and classification.
+                  </p>
                 </div>
               </div>
               <md-button class="collapseBtn" ng-click="isSlbCollapsed = !isSlbCollapsed; text3 === 'more' ? text3 = 'less': text3 = 'more'">Show {{text3}}</md-button>
@@ -154,26 +155,21 @@
   </div>
 </div>
 <div class="container-fluid footer">
-<div class="row" id="footer-row">
-<div class="col-sm-1"></div>
-  <div class="col-sm-5">
-    <h4>CONTACT ME</h4>
-    <p>1626 Sutton Ave, Cincinnati OH 45230</p>
-    <p>(513) 205-1124</p>
-    <p>listda7921@gmail.com</p>
-  </div>
-  <div class="col-sm-5">
-    <div>
-            <h4>Find me on:</h4>
-              <a href="https://www.linkedin.com/in/daniel-list-1255648a/" target="_blank">LinkedIn </a> |
-              <a href="https://github.com/listda7921" target="_blank"> Git Hub</a>
-          </div>
-          <div>
-            <h4>Download the real thing:</h4>
-            <a href="">Resume</a>
-          </div>
-  </div>
-  <div class="col-sm-1"></div>
+  <div class="row" id="footer-row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+      <h4>CONTACT ME</h4>
+      <p>(513) 205-1124</p>
+      <p>listda7921@gmail.com</p>
+    </div>
+    <div class="col-sm-5">
+      <div>
+        <h4>Find me on:</h4>
+        <a href="https://www.linkedin.com/in/daniel-list-1255648a/" target="_blank">LinkedIn </a> |
+        <a href="https://github.com/listda7921" target="_blank"> Git Hub</a>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
 
-</div>
+  </div>
 </div>
