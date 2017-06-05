@@ -14,38 +14,15 @@
     <div class="wrap">
 <hr>  
       <h2>SKILLS PROFILE</h2>
-      <div class="col-sm-2">
-
+      
+  <div class="col-sm-2"></div>
+      <div class="col-sm-8 skillsBox">
+      <md-switch md-invert aria-label="Skill Switch" ng-model='skillToggle' ng-change="skillChange(skillToggle)">
+    Top skills
+  </md-switch>
+        <div class="skill" ng-repeat="skill in filteredSkills">{{skill}}</div>
       </div>
-      <div class="skillsContainer col-sm-8">
-        <div class="skillsRow">
-          <ul>
-            <li>C#</li>
-            <li>Javascript</li>
-            <li>Angular Js</li>
-            <li>Angular 2</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bower & Npm</li>
-            <li>AWS</li>
-          </ul>
-        </div>
-        <div class="skillsRow">
-          <ul>
-            <li>JQuery</li>
-            <li>Bootstrap</li>
-            <li>ASP.NET</li>
-            <li>LINQ</li>
-            <li>SQL</li>
-            <li>Node.js</li>
-            <li>Ionic</li>
-            <li>Git</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-2">
-
-      </div>
+      <div class="col-sm-2"></div>
     </div>
 
   </div>
@@ -169,20 +146,23 @@
     </div>
   </div>
 </div>
-<footer class="container-fluid footer">
+<div class="container-fluid footer">
 <div class="row" id="footer-row">
-  <div class="col-sm-6">
+<div class="col-sm-1"></div>
+  <div class="col-sm-5">
     <h3>CONTACT ME</h3>
     <h4>1626 Sutton Ave, Cincinnati OH 45230</h4>
     <h4>(513) 205-1124</h4>
     <h4>listda7921@gmail.com</h4>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-5">
     <div id="links">
             <h4>Find me on:</h4>
               <a href="" target="_blank">LinkedIn </a>
               <a href="" target="_blank"> Git Hub</a>
           </div>
   </div>
+  <div class="col-sm-1"></div>
+
 </div>
-</footer>
+</div>

@@ -36,7 +36,7 @@ md-nav-bar {
   top: 0px;
   width: 100%;
   background: #667666;
-  z-index: 1;
+  z-index: 2;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16); 
 }
 
@@ -107,4 +107,31 @@ md-nav-bar md-nav-ink-bar {
   min-height: 30vh;
   color: #ffffff;
   margin-top: 10em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.footerBox{
+  padding: 40px;
+}
+
+.skill.ng-leave{
+  opacity: 1;
+}
+.skill.ng-leave.ng-leave-active{
+  opacity: 0;
+}
+.skill.ng-enter{
+  opacity: 0;
+}
+.skill.ng-enter.ng-enter-active{
+  opacity: 1;
+}
+.skill{
+  transition: all linear 0.5s;
+}
+.md-chips{
+  box-shadow: 0 0px !important; 
+}
+.md-chip{
+  margin: 20px 15px 0px 0px;
 }
