@@ -167,4 +167,10 @@ md-nav-bar md-nav-ink-bar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 4em;
+}
+
+.skillCard {
+  margin-right: 4em;
+  margin-bottom: 4em;
 }
