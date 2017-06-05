@@ -17,8 +17,24 @@ hr{
 
 #header {
   justify-content: center;
+  background-image: url("img/O7MF5N0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  align-items: baseline;
+  color: #ffffff;
 }
-
+.title{
+  padding: 3em;
+}
+#credit{
+  text-align: end; 
+}
+#credit a{
+    color: #667666;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
 #profileNav {
   position: fixed;
 }
